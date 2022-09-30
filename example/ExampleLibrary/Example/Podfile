@@ -1,0 +1,4 @@
+use_frameworks!
+target "ExampleLibrary_Tests" do
+  pod "ExampleLibrary", path: "../"
+end

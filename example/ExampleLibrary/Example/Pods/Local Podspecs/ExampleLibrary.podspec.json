@@ -1,0 +1,22 @@
+{
+  "name": "ExampleLibrary",
+  "version": "0.1.0",
+  "summary": "A short description of ExampleLibrary.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Samuel Giddins/ExampleLibrary",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Samuel Giddins": "segiddins@abnormalsecurity.com"
+  },
+  "source": {
+    "git": "https://github.com/Samuel Giddins/ExampleLibrary.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "ExampleLibrary/Classes/**/*"
+}

@@ -1,0 +1,16 @@
+PODS:
+  - ExampleLibrary (0.1.0)
+
+DEPENDENCIES:
+  - ExampleLibrary (from `ExampleLibrary`)
+
+EXTERNAL SOURCES:
+  ExampleLibrary:
+    :path: ExampleLibrary
+
+SPEC CHECKSUMS:
+  ExampleLibrary: 17fb4133813f140c9197680af408c971a52f57d2
+
+PODFILE CHECKSUM: 3239b1def042be5d63e274d1d7a4535a4e860b28
+
+COCOAPODS: 1.11.3
