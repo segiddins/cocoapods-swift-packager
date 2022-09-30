@@ -28,11 +28,14 @@ jobs:
 
   example:
     runs-on: macos-latest
-    name: Ruby ${{ matrix.ruby }}
+    name: MacOS Examples - Ruby ${{ matrix.ruby }}
     strategy:
       matrix:
         ruby:
           - "3.1.2"
+    env:
+      DEVELOPER_DIR: /Applications/Xcode_14.0.1.app/Contents/Developer
+
 
     steps:
       - uses: actions/checkout@v3
