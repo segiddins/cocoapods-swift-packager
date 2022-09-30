@@ -27,7 +27,7 @@ jobs:
         run: bundle exec rake
 
   example:
-    runs-on: macos-latest
+    runs-on: macos-12
     name: MacOS Examples - Ruby ${{ matrix.ruby }}
     strategy:
       matrix:
