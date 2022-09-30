@@ -13,4 +13,4 @@ gem "standard", "~> 1.3"
 
 gem "cocoapods"
 
-gem "ruby-lsp", "~> 0.3.2", :group => :development
+gem "ruby-lsp", "~> 0.3.2", group: :development
